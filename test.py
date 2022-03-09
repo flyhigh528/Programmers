@@ -1,3 +1,1 @@
-a = "12"
-
-print(a.ljust(3,"a"))
+print(len('1245') // 2)
