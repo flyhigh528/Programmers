@@ -28,7 +28,7 @@ def solution(answers):
     compare = [no1_correct, no2_correct, no3_correct, no4_correct]
     print(compare)
     
-      
+    
     for i in range(len(compare)):
         print('현재 값 : {}, 최대값 : {}'.format(compare[i], max(compare)))
         if compare[i] == max(compare):
